@@ -1,0 +1,57 @@
+title: "보상작용 연구 자동화"
+description: "OpenAlex API 기반 자동 연구 크롤링 & 5WHY 분석 - 10분마다 자동 업데이트"
+baseurl: ""
+url: ""
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - README.md
+  - "*.md"
+  - papers/
+  - logs/
+
+markdown: kramdown
+highlighter: rouge
+
+theme: minima
+
+# Collections
+collections:
+  papers:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: "papers"
+      type: "papers"
+    values:
+      layout: "post"
+      category: "research"
+
+# GitHub Pages 설정
+github:
+  repository_name: "compensation-research"
+
+# SEO
+lang: ko
+author: "Compensation Research Bot"
+
+# 네비게이션
+navigation:
+  - title: "홈"
+    url: "/"
+  - title: "논문"
+    url: "/papers/"
+  - title: "규칙"
+    url: "/보상작용-규칙(자동)/"
+  - title: "템플릿"
+    url: "/5WHY-보상작용-템플릿/"
