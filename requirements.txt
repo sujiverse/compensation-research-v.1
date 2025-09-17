@@ -1,0 +1,4 @@
+requests
+Unidecode
+mkdocs
+mkdocs-material
