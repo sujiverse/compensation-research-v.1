@@ -1,0 +1,46 @@
+[
+  {
+    "weak": "tensor fasciae latae",
+    "strong": "gluteus medius",
+    "count": 1,
+    "weak_mentions": 1,
+    "strong_mentions": 1,
+    "score": 1.0,
+    "examples": [
+      "gluteus medius weakness is a common finding in runners leading to compensatory patterns including tensor fasciae latae overactivity and altered hip kinematics"
+    ]
+  },
+  {
+    "weak": "serratus anterior",
+    "strong": "upper trapezius",
+    "count": 1,
+    "weak_mentions": 1,
+    "strong_mentions": 1,
+    "score": 1.0,
+    "examples": [
+      "serratus anterior weakness commonly results in upper trapezius dominance and scapular dyskinesis among overhead athletes"
+    ]
+  },
+  {
+    "weak": "upper trapezius",
+    "strong": "serratus anterior",
+    "count": 1,
+    "weak_mentions": 1,
+    "strong_mentions": 1,
+    "score": 1.0,
+    "examples": [
+      "serratus anterior weakness commonly results in upper trapezius dominance and scapular dyskinesis among overhead athletes"
+    ]
+  },
+  {
+    "weak": "gluteus medius",
+    "strong": "tensor fasciae latae",
+    "count": 1,
+    "weak_mentions": 2,
+    "strong_mentions": 1,
+    "score": 0.5,
+    "examples": [
+      "gluteus medius weakness is a common finding in runners leading to compensatory patterns including tensor fasciae latae overactivity and altered hip kinematics"
+    ]
+  }
+]
