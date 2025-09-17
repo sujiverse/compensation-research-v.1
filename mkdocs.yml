@@ -1,22 +1,17 @@
-site_name: Compensation Knowledge Graph
-site_description: Obsidian Vault → 자동 크롤링/규칙 학습/5WHY/크로스체크
+site_name: Compensation Wiki
+site_description: 보상작용 자동 연구 위키 (크롤링·5WHY·규칙학습)
 site_url: https://foxli250917.github.io/compensation-research
 
-docs_dir: ObsidianVault/Compensation   # Vault를 웹 문서로 사용
+docs_dir: ObsidianVault/Compensation
 site_dir: site
+use_directory_urls: true
 
 theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.highlight
-    - search.suggest
+  name: readthedocs   # 심플/위키 느낌
 
 nav:
-  - 홈: 보상작용.md
-  - 규칙(자동): 보상작용-규칙(자동).md
-  - 템플릿: 5WHY-보상작용-템플릿.md
-  - 논문들:
-      - papers/:
-          - index: index
+  - 홈: index.md                # 새로 만들어 줄 index.md
+  - 허브: "보상작용.md"
+  - 규칙(자동): "보상작용-규칙(자동).md"
+  - 템플릿: "5WHY-보상작용-템플릿.md"
+  - 논문 모음: "papers/index.md"  # 자동 생성되는 리스트 페이지
